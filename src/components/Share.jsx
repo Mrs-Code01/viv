@@ -1,6 +1,6 @@
 import React from 'react'
 import facebook from "../assets/images/facebookW.png"
-import linkedIn from "../assets/images/linkedInW.png"
+import linkedIn from "../assets/images/facebookW.png"
 import tiktok from "../assets/images/tiktokW.png"
 import blogShareStyle from '../css/share.module.css'
 
