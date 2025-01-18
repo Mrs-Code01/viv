@@ -23,10 +23,8 @@ import VivCatering from './pages/VivCatering'
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<RootLayout />}>
-        <Route index element={<Home />} />
-        <Route path='Home' element={<Home />} />
-        <Route path='About' element={<About />} />
+      <Route element={<RootLayout />}>
+        <Route path='/' element={<Home />} />
         <Route path='About' element={<AboutUsLayout />} >
           <Route path='AboutUs' element={<About />} />
           <Route path='OurStory' element={<OurStory />} />

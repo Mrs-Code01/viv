@@ -28,12 +28,12 @@ const NavBar = () => {
     <nav>
       <img src={logo} alt="Vivien Oti Poverty Relief Initiative Logo" />
       <ul className={`navLinksContainer ${hamburgerClick ? 'showNav' : ""}`}>
-        <li><NavLink to='./Home'>Home</NavLink></li>
+        <li><NavLink to='/'>Home</NavLink></li>
         <li> <span className="about-link" onClick={toggleDropdown} >About Us  {isDropdownOpen ? '\u25B2' : '\u25BC'}</span>
 
           {isDropdownOpen &&
             <ul className='about-us-drop-down'>
-              <li><Link to='./About'>About Us</Link></li>
+              <li><Link to='./About/AboutUs'>About Us</Link></li>
               <li><Link to='./About/OurStory'>Our Story</Link></li>
               <li><Link to='./About/OurTeam'>Our Team</Link></li>
             </ul>}
