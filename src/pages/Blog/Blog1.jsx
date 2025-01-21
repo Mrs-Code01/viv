@@ -5,6 +5,7 @@ import blog1Style from '../../css/blog1.module.css'
 import img25 from "../../assets/images/25.jpg"
 import img24 from "../../assets/images/24.jpg"
 import Share from '../../components/Share'
+import LeaveAReply from '../../components/LeaveAReply'
 
 
 const Blog1 = () => {
@@ -39,6 +40,7 @@ const Blog1 = () => {
       </div>
       <Share />
       <CeoMessage />
+      <LeaveAReply />
       <Footer />
     </>
   )
