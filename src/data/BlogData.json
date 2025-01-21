@@ -1,37 +1,37 @@
 [
   {
     "image": "../src/assets/images/viv7.jpg",
-    "narrator": "Vivien Oti Obodoruku",
+    "narrator": "Vivien Oti Obodoruku hhh",
     "title": "The Vivien Oti Poverty Relief Initiative is committed to creating a world where everyone has...",
     "link": "/NewsAndBlog/OurBlog/Blog1"
   },
   {
-    "image": "../src/assets/images/viv8.jpg",
+    "image": "http://localhost:3000/images/viv8.jpg",
     "narrator": "Vivien Oti Obodoruku",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat corrupti deleniti"
   },
   {
-    "image": "../src/assets/images/viv1.jpg",
+    "image": "/images/viv1.jpg",
     "narrator": "Vivien Oti Obodoruku",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat corrupti deleniti"
   },
   {
-    "image": "../src/assets/images/viv6.jpg",
+    "image": "/images/viv6.jpg",
     "narrator": "Vivien Oti Obodoruku",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat corrupti deleniti"
   },
   {
-    "image": "../src/assets/images/viv2.jpg",
+    "image": "/images/viv2.jpg",
     "narrator": "Vivien Oti Obodoruku",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat corrupti deleniti"
   },
   {
-    "image": "../src/assets/images/viv3.jpg",
+    "image": "/images/viv3.jpg",
     "narrator": "Vivien Oti Obodoruku",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat corrupti deleniti"
   },
   {
-    "image": "../src/assets/images/viv4.jpg",
+    "image": "/images/viv4.jpg",
     "narrator": "Vivien Oti Obodoruku",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellat corrupti deleniti"
   }
