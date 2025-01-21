@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
-import BlogData from '/src/data/BlogData.json'
+import BlogData from '../data/BlogData.json'
 import blogStyle from '../css/blog.module.css'
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom'
+
 
 
 
