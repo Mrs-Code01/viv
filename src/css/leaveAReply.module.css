@@ -1,6 +1,6 @@
 .formContainer {
   width: 45%;
-  margin: 0 auto;
+  margin: 60px auto 0;
   background-color: rgb(255, 255, 255);
   border-radius: var(--border-radius);
   padding: 20px;

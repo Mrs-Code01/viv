@@ -1,11 +1,11 @@
 import React from 'react'
-import CeoMessage from '../../components/CeoMessage'
-import Footer from '../../components/Footer'
 import blog1Style from '../../css/blog1.module.css'
 import img25 from "../../assets/images/25.jpg"
 import img24 from "../../assets/images/24.jpg"
 import Share from '../../components/Share'
 import LeaveAReply from '../../components/LeaveAReply'
+import CeoMessage from '../../components/CeoMessage'
+import Footer from '../../components/Footer'
 
 
 const Blog1 = () => {

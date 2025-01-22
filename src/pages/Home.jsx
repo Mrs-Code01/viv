@@ -55,18 +55,6 @@ const Home = () => {
             dignity and hope.
           </p>
         </div>
-        <div className={homeStyle.mission}>
-          <h3>OUR MISSION</h3>
-          <p>
-            The Vivien Oti Poverty Relief Initiative, our mission is
-            to provide sustainable solutions, support, and
-            opportunities for growth to individuals and
-            communities affected by poverty. We strive to
-            empower lives, foster resilience, and promote
-            economic independence, ultimately creating a brighter
-            future for all.
-          </p>
-        </div>
       </div>
       <div className={homeStyle.articlesContainer}>
         <div>
@@ -78,11 +66,11 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <img src={viv9} alt="" />
-          <h3>Lorem ipsum dolor sit </h3>
+          <Link to='/NewsAndBlog/NewsArchive/News1'><img src={viv9} alt="" /></Link>
+          <h3>Urgent Medical Assistance Needed for Mrs. Ucheuchi Ginawa</h3>
           <div className={homeStyle.line}></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos necessitatibus dicta iam corporis libero quis corrupti aspernatur quod, esse facere res porro? Veniam corporis libero quis corrupti aspernat  dolor sit amet consectetur adipisicing elit. Quos necessitatibus dicta iam corporis libero quis corrupti aspernatur quod, esse facere res porro? Veniam corporis libero quis cor  amet consectetur adipisicing elit. Quos necessitatibus dicta iam corporis libero quis corrupti aspernatur quod, esse fa...
+            Mrs. Ginawa underwent a medical surgery during the delivery of her twins, who are now 12 years old. Tragically, her stomach organs protruded from he...
           </p>
         </div>
       </div>

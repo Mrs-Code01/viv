@@ -1,0 +1,93 @@
+.header {
+  background: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../assets/images/viv3.jpg');
+  width: 100%;
+  min-height: 300px;
+  padding: 0 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 4.3rem;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--border-radius);
+  margin-bottom: 5px;
+}
+
+.container>div {
+  margin-bottom: 60px;
+}
+
+.container p {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+}
+
+.container span {
+  font-size: 6rem;
+  color: var(--primary-color);
+}
+
+cite {
+  font-size: var(--small-text);
+  color: grey;
+}
+
+.container h2 {
+  font-size: var(--header-2);
+  margin: 15px 0;
+  color: rgb(92, 92, 92);
+}
+
+.container>p {
+  margin-bottom: 60px;
+  position: relative;
+  padding-left: 80px;
+}
+
+.container>p::before {
+  content: '\201C';
+  position: absolute;
+  font-size: 18rem;
+  top: -60px;
+  left: 0;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.container a {
+  text-decoration: none;
+  background-color: black;
+  color: var(--accent-color);
+  font-size: var(--header-2);
+  text-align: center;
+  border-radius: var(--border-radius);
+  padding: 40px 10px;
+  display: block;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.container i {
+  font-size: var(--p-tag);
+  line-height: var(--p-line-height);
+  color: rgb(67, 67, 67);
+}

@@ -19,6 +19,8 @@ import NewsLayout from './layout/NewsLayout'
 import News1 from './pages/News/News1'
 import Goals from './pages/Goals'
 import VivCatering from './pages/VivCatering'
+import CrowtherSchool from './pages/CrowtherSchool'
+
 
 const App = () => {
   const router = createBrowserRouter(
@@ -46,6 +48,7 @@ const App = () => {
         <Route path='Contact' element={<Contact />} />
         <Route path='Goals' element={<Goals />} />
         <Route path='VivienCatering' element={<VivCatering />} />
+        <Route path='CrowtherSchool' element={<CrowtherSchool />} />
       </Route>
     )
   )

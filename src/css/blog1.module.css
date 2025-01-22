@@ -28,6 +28,7 @@
 
 .blog1ContentContainer h2 {
   font-size: var(--header-2);
+  color: rgb(92, 92, 92);
 }
 
 .blog1ContentContainer>div h2 {
@@ -36,7 +37,7 @@
 
 
 .blog1ContentContainer p {
-  font-size: 2.3rem;
+  font-size: var(--p-tag);
   line-height: var(--p-line-height);
   margin-top: 10px
 }

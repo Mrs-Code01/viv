@@ -77,21 +77,6 @@
   filter: saturate(.3);
 }
 
-.mission {
-  position: absolute;
-  bottom: -50px;
-  left: 40px;
-  width: 40%;
-  background-color: var(--secondary-color);
-  border-radius: var(--border-radius);
-  padding: 20px;
-}
-
-.mission h3 {
-  font-size: 2.2rem;
-  margin-bottom: 8px;
-}
-
 .articlesContainer {
   width: 80%;
   margin: 0 auto;

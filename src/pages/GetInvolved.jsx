@@ -113,7 +113,7 @@ const GetInvolved = () => {
       </div>}
       {showNonProfit === 2 && <div className={getInvolved.nonProfitPartners}>
         <Link><img src={np1} alt="" /></Link>
-        <Link><img src={np2} alt="" /></Link>
+        <Link to='/CrowtherSchool'><img src={np2} alt="" /></Link>
         <Link to='/VivienCatering'><img src={np3} alt="" /></Link>
       </div>}
       {showNonProfit === 3 && <div className={getInvolved.nonProfitPartners}>
