@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 0 5%;
 }
 
 .headerContent p {
@@ -50,6 +51,7 @@
 
 .visionStatementContainer h2 {
   font-size: 3rem;
+  margin-bottom: 8px;
 }
 
 .line {
@@ -135,4 +137,62 @@
   padding: 12px 40px;
   color: #fff;
   margin-top: 20px;
+}
+
+
+@media screen and (max-width:800px) {
+  .headerContent h1 {
+    font-size: 4.5rem;
+  }
+
+  .visionStatementContainer {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .headerContent a {
+    font-size: 2rem;
+    padding: 15px 7px;
+    width: 160px;
+  }
+
+  .visionStatementContainer {
+    flex-direction: column-reverse;
+  }
+
+  .visionStatementContainer .visionStatementText {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .articlesContainer {
+    width: 95%;
+  }
+
+  .visionStatementContainer img {
+    width: 100%;
+  }
+
+  .goals {
+    width: 95%;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+  .articlesContainer img {
+    height: 400px;
+  }
+
+  .visionStatementContainer h2 {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width:390px) {
+  .headerContent a {
+    padding: 14px 7px;
+    width: 140px;
+  }
 }

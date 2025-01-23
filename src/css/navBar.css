@@ -125,7 +125,7 @@ nav ul a:hover {
 @media screen and (max-width:1000px) {
   .navLinksContainer {
     position: absolute;
-    top: 100px;
+    top: 70px;
     left: 0;
     width: 100%;
     background-color: rgb(49, 49, 49);
@@ -198,5 +198,10 @@ nav ul a:hover {
   .about-us-drop-down a {
     padding: 15px;
     color: #f3f1f1;
+  }
+
+  nav img {
+    width: 70px;
+    height: 70px;
   }
 }
