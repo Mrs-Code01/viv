@@ -52,11 +52,13 @@
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
 }
 
 .partnersFlex>div {
   width: 31%;
-  height: 500px;
+  height: 580px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -137,11 +139,12 @@
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .supportersFlex>div {
   width: 48%;
-  height: 530px;
+  height: 580px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -232,6 +235,8 @@
   margin: 60px auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
 }
 
 .nonProfitPartners a {
@@ -246,4 +251,83 @@
   padding: 25px 15px;
   object-fit: cover;
   object-position: center;
+}
+
+@media screen and (max-width:1000px) {
+  .partnersFlex>div {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .supportersFlex>div {
+    height: 650px;
+  }
+
+  .becomeInvolved {
+    padding: 60px 20%;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .nonProfitPartners a {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .header {
+    min-height: 350px;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .header p {
+    padding: 0 5%;
+  }
+
+  .supporters,
+  .partners {
+    width: 95%;
+  }
+
+  .supportersFlex {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .supportersFlex>div {
+    width: 100%;
+    height: 580px;
+  }
+
+  .partnersFlex>div {
+    width: 100%;
+    height: 500px;
+  }
+
+  .becomeInvolved {
+    padding: 60px 15%;
+  }
+
+  .nonProfitPartners a {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .becomeInvolved {
+    padding: 60px 5%;
+  }
+
+  .supportersFlex>div {
+    height: 620px;
+  }
+
+  .partnersFlex>div {
+    width: 100%;
+    height: 540px;
+  }
 }

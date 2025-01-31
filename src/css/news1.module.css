@@ -78,3 +78,22 @@
   font-size: 3rem;
   color: var(--secondary-color);
 }
+
+
+@media screen and (max-width:800px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .header h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .header h1 {
+    font-size: 3.4rem;
+  }
+}

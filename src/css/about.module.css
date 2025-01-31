@@ -255,3 +255,66 @@
 .documents a:not(:last-child) {
   margin-right: 30px;
 }
+
+@media screen and (max-width:900px) {
+
+  .focusAreasContainer,
+  .vision,
+  .mission {
+    width: 95%;
+  }
+
+  .focusAreas>div {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .header {
+    padding: 0 5%;
+    min-height: 400px;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .vision {
+    flex-direction: column;
+  }
+
+  .mission {
+    flex-direction: column-reverse;
+  }
+
+  .vision img,
+  .mission img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .vision div,
+  .mission div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .focusAreas>div {
+    width: 100%;
+  }
+
+  .documents img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .goals h2 {
+    font-size: 3.7rem;
+  }
+
+  .goals a {
+    padding: 12px 27px;
+    letter-spacing: 1.2px;
+  }
+}

@@ -29,7 +29,7 @@ const GetInvolved = () => {
     if (showNonProfit !== null) {
       const partnerTimer = setTimeout(() => {
         setShowNonProfit(null)
-      }, 7000)
+      }, 20000)
       return () => clearTimeout(partnerTimer)
     }
   }, [showNonProfit])

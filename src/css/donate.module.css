@@ -47,6 +47,8 @@ main p {
   margin: 0 auto 60px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 40px;
 }
 
 .donateContainer>div {
@@ -249,4 +251,50 @@ main p {
 
 .hideContent {
   display: none;
+}
+
+
+@media screen and (max-width:1000px) {
+  .donateContainer>div {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .donateContainer>div {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .donateContainer>div {
+    width: 100%;
+  }
+
+  main,
+  .donateContainer {
+    width: 95%;
+  }
+
+  .donateMode {
+    height: 70%;
+  }
+
+  .donateContainer>div>button {
+    padding: 17px 0;
+  }
+
+  .header h1 {
+    font-size: 3.8rem;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .header {
+    min-height: 350px;
+  }
+
+  .header h1 {
+    font-size: 3.6rem;
+  }
 }

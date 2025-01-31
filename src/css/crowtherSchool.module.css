@@ -91,3 +91,9 @@ cite {
   line-height: var(--p-line-height);
   color: rgb(67, 67, 67);
 }
+
+@media screen and (max-width:800px) {
+  .container {
+    width: 95%;
+  }
+}

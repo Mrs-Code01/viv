@@ -32,6 +32,8 @@
   margin: 0 auto 60px;
   display: flex;
   justify-content: space-between;
+  row-gap: 60px;
+  flex-wrap: wrap;
 }
 
 .team>div {
@@ -87,4 +89,23 @@
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
+}
+
+
+@media screen and (max-width:900px) {
+  .team>div {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width:700px) {
+
+  .topContent,
+  .team {
+    width: 95%;
+  }
+
+  .team>div {
+    width: 100%;
+  }
 }
