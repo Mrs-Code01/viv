@@ -16,11 +16,11 @@ const Footer = () => {
           <div className='footer-top'>
             <img src={logo} alt="NGO logo" />
             <div className='socials'>
-              <Link to=''><img src={facebook} alt="facebook icon" /></Link>
-              <Link to=''><img src={instagram} alt="facebook icon" /></Link>
-              <Link to=''><img src={linkedin} alt="facebook icon" /></Link>
-              <Link to=''><img src={twitter} alt="facebook icon" /></Link>
-              <Link to=''><img src={youtube} alt="facebook icon" /></Link>
+              <Link to='https://www.facebook.com/share/18Lbrgmhsf/?mibextid=wwXIfr'><img src={facebook} alt="facebook icon" /></Link>
+              <Link to='https://www.instagram.com/oti.2025/'><img src={instagram} alt="instagram icon" /></Link>
+              <Link to='https://www.linkedin.com/in/vivien-oti-poverty-relief-initiative-62609a34a/'><img src={linkedin} alt="linkedin icon" /></Link>
+              <Link to='https://x.com/OtiRelief270865'><img src={twitter} alt="twitter icon" /></Link>
+              <Link to='https://www.youtube.com/feed/you'><img src={youtube} alt="youtube icon" /></Link>
             </div>
             <Link to='/Donate' className='donate-btn'>Donate</Link>
           </div>
