@@ -34,6 +34,9 @@ const GetInvolved = () => {
     }
   }, [showNonProfit])
 
+  const scrollToSection = () => {
+    document.getElementById('toNonprofit').scrollIntoView({ behavior: "smooth" })
+  }
 
 
 
@@ -79,7 +82,7 @@ const GetInvolved = () => {
               </p>
             </div>
             <div className={getInvolved.partnersBottom}>
-              <button onClick={() => togglePartners(2)}>Our Partners &#8594;</button>
+              <button onClick={() => { togglePartners(2); scrollToSection(); }} >Our Partners &#8594;</button>
               <div className={getInvolved.nonprofitLinks}>
                 <Link>Collaborate with us</Link>
                 <Link>See our current projects</Link>
@@ -106,17 +109,17 @@ const GetInvolved = () => {
         </div>
       </div>
 
-      {showNonProfit === 1 && <div className={getInvolved.nonProfitPartners}>
+      {showNonProfit === 0 && <div className={getInvolved.nonProfitPartners}>
         <img src={give} alt="" />
         <img src={np2} alt="" />
         <img src={np3} alt="" />
       </div>}
-      {showNonProfit === 2 && <div className={getInvolved.nonProfitPartners}>
+      {showNonProfit === 2 && <div className={getInvolved.nonProfitPartners} id='toNonprofit'>
         <Link><img src={np1} alt="" /></Link>
         <Link to='/CrowtherSchool'><img src={np2} alt="" /></Link>
         <Link to='/VivienCatering'><img src={np3} alt="" /></Link>
       </div>}
-      {showNonProfit === 3 && <div className={getInvolved.nonProfitPartners}>
+      {showNonProfit === 0 && <div className={getInvolved.nonProfitPartners}>
         <img src={ceo} alt="" />
         <img src={np2} alt="" />
         <img src={np3} alt="" />
