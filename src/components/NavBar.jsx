@@ -23,11 +23,18 @@ const NavBar = () => {
     setHamburgerClick(!hamburgerClick)
   }
 
+  const closeDropdown = (event) => {
+    if (event.target.tagName === "A") {
+      setHamburgerClick(false)
+    }
+  }
+
+
 
   return (
     <nav>
       <img src={logo} alt="Vivien Oti Poverty Relief Initiative Logo" />
-      <ul className={`navLinksContainer ${hamburgerClick ? 'showNav' : ""}`}>
+      <ul className={`navLinksContainer ${hamburgerClick ? 'showNav' : ""}`} onClick={closeDropdown}>
         <li><NavLink to='/'>Home</NavLink></li>
         <li> <span className="about-link" onClick={toggleDropdown} >About Us  {isDropdownOpen ? '\u25B2' : '\u25BC'}</span>
 

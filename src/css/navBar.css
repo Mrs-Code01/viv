@@ -128,7 +128,7 @@ nav ul a:hover {
     top: 70px;
     left: 0;
     width: 100%;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(108, 108, 108);
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -163,9 +163,14 @@ nav ul a:hover {
   }
 
 
-  nav ul li:hover {
+  /* nav ul li:hover {
     background-color: rgb(223, 223, 223);
-  }
+  } */
+
+  /* nav ul li a:hover {
+    color: #000000;
+    opacity: 1;
+  } */
 
   .hamburger {
     display: block;
@@ -173,6 +178,8 @@ nav ul a:hover {
 
   .newsandblog-dropdown a {
     padding: 0;
+    padding: 15px;
+    color: #f3f1f1;
   }
 
   .about-us-drop-down a {
@@ -180,7 +187,11 @@ nav ul a:hover {
   }
 
   .newsandblog-dropdown {
-    margin-top: 50px;
+    left: 0;
+    top: 0px;
+    position: relative;
+    width: 100%;
+    background-color: black;
   }
 
   .aboutLink {
@@ -188,16 +199,26 @@ nav ul a:hover {
   }
 
   .about-us-drop-down {
-    position: absolute;
-    z-index: 99;
-    top: 130px;
+    background-color: black;
     left: 0;
+    top: 0px;
+    position: relative;
     width: 100%;
   }
 
   .about-us-drop-down a {
     padding: 15px;
     color: #f3f1f1;
+  }
+
+  .about-us-drop-down a:hover {
+    background-color: #fff;
+    color: #000000;
+  }
+
+  .newsandblog-dropdown a:hover {
+    background-color: #fff;
+    color: #000000;
   }
 
   nav img {
