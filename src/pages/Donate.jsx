@@ -33,7 +33,9 @@ const Donate = () => {
             <div className={donateStyle.donateContent}>
               <h3>Name</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat et modi amet placeat rem possimus tenetur perspiciatis! Laboriosam reiciendis voluptate
+                First Bank<br/>
+                Vivien Oti Poverty Relief Initiative<br/>
+                <span>2046877776</span> 
               </p>
             </div>
             <div className={donateStyle.float}>

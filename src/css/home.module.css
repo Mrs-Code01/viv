@@ -30,11 +30,11 @@
   border: 0;
   text-decoration: none;
   display: inline-block;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .headerContent a:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .headerContent a:nth-of-type(1) {
@@ -76,7 +76,7 @@
   object-fit: cover;
   height: 320px;
   border-radius: var(--border-radius);
-  filter: saturate(.3);
+  filter: saturate(0.3);
 }
 
 .articlesContainer {
@@ -102,7 +102,7 @@
   line-height: var(--p-line-height);
 }
 
-.articlesContainer>div {
+.articlesContainer > div {
   margin-bottom: 60px;
 }
 
@@ -139,8 +139,77 @@
   margin-top: 20px;
 }
 
+.highlights {
+  width: 80%;
+  margin: 80px auto 60px;
+}
 
-@media screen and (max-width:800px) {
+.highlights h2 {
+  font-size: 3rem;
+  margin-bottom: 38px;
+  text-align: center;
+}
+
+.highlightsFlex {
+  display: flex;
+  row-gap: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.highlightsFlex > div {
+  width: 31%;
+  height: 320px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.highlightsFlex > div img {
+  height: 60%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.highlightsFlex > div div {
+  padding: 10px;
+  height: 32%;
+}
+
+.highlightsFlex > div div span {
+  font-size: 1.3rem;
+  background-color: rgb(0, 98, 128);
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.highlightsFlex > div div a {
+  font-size: 1.7rem;
+  text-decoration: none;
+  display: block;
+  color: black;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1170px) {
+  .highlightsFlex > div {
+    height: 370px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .highlightsFlex > div {
+    width: 48%;
+    height: 330px;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .headerContent h1 {
     font-size: 4.5rem;
   }
@@ -148,9 +217,13 @@
   .visionStatementContainer {
     width: 95%;
   }
+
+  .highlights {
+    width: 95%;
+  }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
   .headerContent a {
     font-size: 2rem;
     padding: 15px 7px;
@@ -177,10 +250,13 @@
   .goals {
     width: 95%;
   }
+
+  .highlightsFlex > div {
+    width: 100%;
+  }
 }
 
-
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .articlesContainer img {
     height: 400px;
   }
@@ -190,7 +266,7 @@
   }
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width: 390px) {
   .headerContent a {
     padding: 14px 7px;
     width: 140px;
