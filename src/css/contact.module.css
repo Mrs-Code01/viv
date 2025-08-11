@@ -1,5 +1,6 @@
 .header {
-  background: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../assets/images/viv7.jpg');
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../assets/images/viv7.jpg");
   width: 100%;
   min-height: 320px;
   padding: 0 5%;
@@ -29,13 +30,13 @@
   border-radius: var(--border-radius);
 }
 
-.formContainer>div {
+.formContainer > div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.formContainer>div h2 {
+.formContainer > div h2 {
   font-size: var(--header-2);
 }
 
@@ -58,19 +59,18 @@
   justify-content: space-between;
 }
 
-.formContainer form>div {
+.formContainer form > div {
   width: 48%;
   margin-bottom: 15px;
-
 }
 
-.formContainer form>div label {
+.formContainer form > div label {
   display: block;
   font-size: var(--small-text);
-  margin-bottom: 6px
+  margin-bottom: 6px;
 }
 
-.formContainer form>div input {
+.formContainer form > div input {
   width: 100%;
   height: 45px;
   font-size: var(--small-text);
@@ -80,7 +80,7 @@
   outline: 0;
 }
 
-.formContainer form>div select {
+.formContainer form > div select {
   border-radius: var(--border-radius);
   width: 100%;
   height: 45px;
@@ -90,7 +90,7 @@
   outline: 0;
 }
 
-.formContainer form>div option {
+.formContainer form > div option {
   border-radius: var(--border-radius);
   width: 100%;
   font-size: var(--small-text);
@@ -98,7 +98,6 @@
   background-color: var(--accent-color);
   display: block;
 }
-
 
 .formContainer form textarea {
   border: 2px solid var(--secondary-color);
@@ -129,4 +128,23 @@
   height: 45px;
   background-color: var(--primary-color);
   border: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .formContainer {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .formContainer {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .formContainer form > div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }
