@@ -53,11 +53,11 @@ const App = () => {
         <Route path="Goals" element={<Goals />} />
         <Route path="VivienCatering" element={<VivCatering />} />
         <Route path="CrowtherSchool" element={<CrowtherSchool />} />
-      </Route>,
-      {
-        basename: process.env.PUBLIC_URL
-      }
-    )
+      </Route>
+    ),
+    {
+      basename: process.env.PUBLIC_URL
+    }
   );
 
   return <RouterProvider router={router} />;
