@@ -8,6 +8,7 @@ import "../global.css";
 const NavBar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isDropdownBlog, setIsDropdownBlog] = useState(false);
+  const [hamburgerClick, setHamburgerClick] = useState(false);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(prevMode => {
@@ -21,7 +22,6 @@ const NavBar = () => {
     });
   };
 
-  const [hamburgerClick, setHamburgerClick] = useState(false);
   const toggleHamburger = () => {
     setHamburgerClick(!hamburgerClick);
   };
@@ -43,7 +43,7 @@ const NavBar = () => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          {" "}
+          {/* {" "} */}
           <span className="about-link" onClick={toggleDropdown}>
             About Us {isDropdownOpen ? "\u25B2" : "\u25BC"}
           </span>
@@ -62,7 +62,7 @@ const NavBar = () => {
           )}
         </li>
         <li>
-          {" "}
+          {/* {" "} */}
           <span className="newsandblog-link" onClick={toggleDropdownBlog}>
             News & Blog {isDropdownBlog ? "\u25B2" : "\u25BC"}
           </span>
@@ -78,7 +78,7 @@ const NavBar = () => {
           )}
         </li>
         <li>
-          {" "}
+          {/* {" "} */}
           <NavLink to="./Multimedia">Multimedia</NavLink>
         </li>
         <li>
