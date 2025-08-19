@@ -10,6 +10,7 @@ import crowtherImg from "../assets/images/crowther.jpg";
 import aboutStyle from "../css/about.module.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import logomeaning from "/images/logomeaning.pdf";
 
 const About = () => {
   return (
@@ -21,6 +22,13 @@ const About = () => {
           non-governmental organization (NGO) registered with the Corporate
           Affairs Commission (CAC)of Nigeria. Our registration number : 8115188
         </p>
+        <a
+          href={logomeaning}
+          download={logomeaning.pdf}
+          id={aboutStyle.logomeaning}
+        >
+          Logo Meaning &darr;
+        </a>
       </header>
       <div className={aboutStyle.vision}>
         <img src={viv7} alt="" />

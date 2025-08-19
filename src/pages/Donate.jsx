@@ -183,9 +183,9 @@ const Donate = () => {
               <ul>
                 <li><strong>Is bank transfer secure?</strong><br></br>Yes, bank transfers are a secure way to donate
                 </li>
-                <li><strong>Will i receive a receipt for my donation?</strong><br></br>Yes, our team will provide a receipt upon confirmation of the transfer
+                <li><strong>Will I receive a receipt for my donation?</strong><br></br>Yes, our team will provide a receipt upon confirmation of the transfer
                 </li>
-                <li><strong>Can I make a bank transfer from outside Nigeria?</strong><br></br>Yes, please contact your bank for international transfer details and fees.
+                <li><strong>Can I make a bank transfer from outside Nigeria?</strong><br></br>Yes, a receipt will be given after received and confirmation of payment.
                 </li>
               </ul>
             </div>

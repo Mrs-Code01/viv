@@ -2,6 +2,7 @@ import React from "react";
 import ourStoryStyle from "../css/ourstory.module.css";
 import ceo from "../assets/images/ceo.jpg";
 import Footer from "../components/Footer";
+import lga from "/images/lga.pdf";
 
 const OurStory = () => {
   return (
@@ -21,6 +22,9 @@ const OurStory = () => {
             safe and supportive environments, I am committed to empowering
             communities to break the cycle of poverty.
           </p>
+          <a href={lga} download={lga.pdf}>
+            Local Government Area Identification &darr;
+          </a>
         </div>
       </div>
       <div className={ourStoryStyle.education}>
@@ -50,7 +54,7 @@ const OurStory = () => {
           <li>
             License: Teachers Registration Council of Nigeria (TRCN),
             Registration number: CT/R/21658<br></br>
-            Date: September 29,2022 -September29, 2025
+            Date: 6th February, 2025 - 6th February, 2028
           </li>
         </ul>
       </div>

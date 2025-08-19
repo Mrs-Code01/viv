@@ -18,6 +18,7 @@ import Blog from "./pages/Blog";
 import News from "./pages/News";
 import NewsAndBlogLayout from "./layout/NewsAndBlogLayout";
 import Blog1 from "./pages/Blog/Blog1";
+import Blog2 from "./pages/Blog/Blog2";
 import BlogLayout from "./layout/BlogLayout";
 import Contact from "./pages/Contact";
 import NewsLayout from "./layout/NewsLayout";
@@ -41,6 +42,7 @@ const App = () => {
           <Route path="NewsArchive" element={<News />} />
           <Route path="OurBlog" element={<BlogLayout />}>
             <Route path="Blog1" element={<Blog1 />} />
+            <Route path="Blog2" element={<Blog2 />} />
           </Route>
           <Route path="NewsArchive" element={<NewsLayout />}>
             <Route path="News1" element={<News1 />} />
