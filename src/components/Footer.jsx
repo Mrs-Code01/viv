@@ -14,7 +14,18 @@ const Footer = () => {
       <footer>
         <div className="footer-container">
           <div className="footer-top">
-            <img src={logo} alt="NGO logo" />
+            <div className="footer-address">
+              <img src={logo} alt="NGO logo" />
+              <div>
+                <p>17 Omiemiedi Road, Sapele, Delta State, Nigeria</p>
+                <a href="tel:+2348023298459">+2348037009589</a>
+                <br />
+                <a href="tel:+2348023298459">+2348028825232</a>
+                <br />
+                <a href="mailto:info@vivienotipov.com">info@vivienotipov.com</a>
+              </div>
+            </div>
+
             <div className="socials">
               <Link to="https://www.facebook.com/share/18Lbrgmhsf/?mibextid=wwXIfr">
                 <img src={facebook} alt="facebook icon" />
@@ -60,6 +71,11 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      <div class="bottom-footer">
+        <p>
+          Copyright Vivien Oti Poverty Relief Initiative. All Rights Reserved.
+        </p>
+      </div>
     </>
   );
 };

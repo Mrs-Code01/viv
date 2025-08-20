@@ -9,10 +9,28 @@ footer {
   margin: 0 auto;
 }
 
-.footer-top>img {
+.footer-address {
   width: 35%;
 }
 
+.footer-address > img {
+  width: 100%;
+}
+
+.footer-address div {
+  margin-top: 10px;
+}
+
+.footer-address p {
+  font-size: 1.7rem;
+  color: rgb(216, 216, 216);
+}
+
+.footer-address a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: rgb(216, 216, 216);
+}
 .socials {
   width: 30%;
   text-align: right;
@@ -24,8 +42,8 @@ footer {
   border-radius: 50%;
   padding: 8px;
   background-color: #fff;
-  opacity: .7;
-  transition: all .3s ease-in;
+  opacity: 0.7;
+  transition: all 0.3s ease-in;
 }
 
 .socials a:not(:last-child) {
@@ -39,7 +57,6 @@ footer {
 .footer-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-bottom: 30px;
   border-bottom: 1px solid var(--secondary-color);
   margin-bottom: 30px;
@@ -53,6 +70,7 @@ footer {
   text-decoration: none;
   font-size: var(--a-tag);
   color: #000;
+  height: 45px;
 }
 
 .footer-bottom {
@@ -76,17 +94,16 @@ footer {
 .footer-bottom ul li a {
   text-decoration: none;
   color: #fff;
-  opacity: .7;
+  opacity: 0.7;
   font-size: 15px;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .footer-bottom ul li a:hover {
   opacity: 1;
 }
 
-
-@media screen and (max-width:1100px) {
+@media screen and (max-width: 1100px) {
   .footer-bottom ul {
     flex-direction: column;
     text-align: center;
@@ -100,13 +117,13 @@ footer {
   }
 }
 
-@media screen and (max-width:1035px) {
+@media screen and (max-width: 1035px) {
   .socials {
     width: 40%;
   }
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width: 850px) {
   .socials img {
     width: 38px;
     height: 38px;
@@ -117,14 +134,24 @@ footer {
   }
 }
 
-@media screen and (max-width:700px) {
+.bottom-footer p {
+  background-color: rgb(14, 13, 13);
+  color: rgb(231, 231, 231);
+  font-size: 1.5rem;
+  padding: 25px 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
   .footer-top {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
-  .footer-top>img {
+  /* .footer-top > img {
     width: 70%;
-  }
+  } */
 
   .socials {
     width: 70%;
@@ -140,15 +167,27 @@ footer {
   .donate-btn {
     font-size: 2rem;
   }
+
+  .footer-address {
+    width: 100%;
+  }
+
+  .footer-address > img {
+    width: 70%;
+  }
 }
 
-
-@media screen and (max-width:500px) {
-  .footer-top>img {
+@media screen and (max-width: 500px) {
+  .footer-address > img {
     width: 100%;
   }
 
   .socials {
     width: 100%;
+  }
+
+  .footer-address p,
+  .footer-address a {
+    font-size: 1.5rem;
   }
 }
