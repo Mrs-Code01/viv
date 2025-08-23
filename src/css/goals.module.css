@@ -1,5 +1,6 @@
 .header {
-  background: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../assets/images/24.jpg');
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../assets/images/24.jpg");
   width: 100%;
   min-height: 600px;
   padding: 0 20%;
@@ -46,7 +47,7 @@
   font-size: var(--header-3);
 }
 
-.listedGoals>div:not(:last-child) {
+.listedGoals > div:not(:last-child) {
   margin-bottom: 60px;
 }
 
@@ -70,4 +71,47 @@
   font-size: var(--p-tag);
   font-weight: 600;
   color: black;
+}
+
+.budget {
+  width: 90%;
+  margin: 0 auto;
+  background-color: black;
+  padding: 70px 40px;
+  border-radius: var(--border-radius);
+  margin-bottom: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.budget h2 {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.budget a {
+  font-size: var(--a-tag);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  padding: 14px 30px;
+  background-color: var(--primary-color);
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+@media screen and (max-width: 700px) {
+  .budget h2 {
+    font-size: 3rem;
+  }
+
+  .budget a {
+    font-size: 1.7rem;
+    padding: 14px 30px;
+  }
+
+  .budget {
+    padding: 60px 20px;
+  }
 }

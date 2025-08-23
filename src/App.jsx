@@ -25,8 +25,9 @@ import Contact from "./pages/Contact";
 import NewsLayout from "./layout/NewsLayout";
 import News1 from "./pages/News/News1";
 import Goals from "./pages/Goals";
-import VivCatering from "./pages/VivCatering";
+import OxVienNigeriaLimited from "./pages/VivCatering";
 import CrowtherSchool from "./pages/CrowtherSchool";
+import ChildProtectionNetwork from "./pages/ChildProtectionNetwork";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -55,8 +56,12 @@ const App = () => {
         <Route path="Donate" element={<Donate />} />
         <Route path="Contact" element={<Contact />} />
         <Route path="Goals" element={<Goals />} />
-        <Route path="VivienCatering" element={<VivCatering />} />
+        <Route path="OxVienNigeriaLimited" element={<OxVienNigeriaLimited />} />
         <Route path="CrowtherSchool" element={<CrowtherSchool />} />
+        <Route
+          path="childprotectionnetwork"
+          element={<ChildProtectionNetwork />}
+        />
       </Route>
     )
   );

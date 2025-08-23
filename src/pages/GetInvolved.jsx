@@ -117,8 +117,8 @@ const GetInvolved = () => {
           <div>
             <ul>
               <Link to="/CrowtherSchool">Crowther School</Link>
-              <Link to="/VivienCatering">Vivien Catering</Link>
-              <Link>Child Protection Network</Link>
+              <Link to="/OxVienNigeriaLimited">Ox-Vien Nigeria Limited</Link>
+              <Link to="/childprotectionnetwork">Child Protection Network</Link>
             </ul>
             <button onClick={() => setNonProfitModal(false)}>Cancel</button>
           </div>

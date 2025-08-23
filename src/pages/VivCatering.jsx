@@ -17,10 +17,10 @@ const VivCatering = () => {
           <h1>STORY</h1>
         </div>
         <div>
-          <h2>WELCOME TO OX-VIEN CATERING</h2>
+          <h2>WELCOME TO OX-VIEN NIGERIA LIIMITED</h2>
           <p>
-            At Ox-Vien Catering, we believe that food has the power to bring
-            people together and foster meaningful connections. Our team is
+            At Ox-Vien Nigeria Limited, we believe that food has the power to
+            bring people together and foster meaningful connections. Our team is
             committed to delivering delicious, nutritious meals that exceed our
             clients' expectations.
           </p>

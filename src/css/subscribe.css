@@ -1,5 +1,10 @@
 .subscribe {
-  background: linear-gradient(to right, rgba(0, 0, 0, .95), rgba(0, 0, 0, .95)), url('../assets/viv1.jpg');
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("../assets/viv1.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +35,7 @@
   font-size: 3.4rem;
 }
 
-.form-container>p {
+.form-container > p {
   font-size: 16px;
   margin: 9px 0 10px;
 }
@@ -49,13 +54,14 @@
 
 .form-container form input {
   height: 45px;
-  border: 0;
+  border: 2px solid var(--primary-color);
   outline: 0;
   border-radius: var(--border-radius);
   width: 75%;
   padding: 0px 10px;
   font-size: 17px;
-  background-color: #fff;
+  background: none;
+  color: rgb(175, 207, 255);
 }
 
 .form-container form div:not(:nth-of-type(5)) {
@@ -78,18 +84,17 @@
   font-size: 17px;
   color: #fff;
   cursor: pointer;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   margin-top: 10px;
 }
 
 .form-container form button:hover {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .consent {
   display: flex;
 }
-
 
 .consent input[type="checkbox"] {
   height: 25px;
@@ -98,7 +103,7 @@
   cursor: pointer;
 }
 
-.consent>p {
+.consent > p {
   font-size: 16px;
   margin: 9px 0 10px;
 }
@@ -114,9 +119,7 @@
   font-weight: 600;
 }
 
-
-
-@media screen and (max-width:1100px) {
+@media screen and (max-width: 1100px) {
   .subscribe-flex img {
     width: 35%;
   }
@@ -126,7 +129,7 @@
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .subscribe-flex {
     flex-direction: column;
   }
@@ -142,7 +145,7 @@
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .form-container form input {
     width: 100%;
     height: 53px;
@@ -166,7 +169,7 @@
     font-size: 3rem;
   }
 
-  .form-container>p {
+  .form-container > p {
     margin-bottom: 20px;
   }
 }
